@@ -8,7 +8,6 @@ Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
-
 @app.get("/Verleihdaten/")
 async def verleihdaten(db: Session = Depends(get_db)):
     result = db.query(Verleihdaten).options(joinedload('*')).all()
@@ -18,7 +17,7 @@ async def verleihdaten(db: Session = Depends(get_db)):
 async def verleihdaten(verleihdaten: dict, db: Session = Depends(get_db)):
     verleihdaten["ausleihdatum"] = datetime.strptime(verleihdaten["ausleihdatum"], "%Y-%m-%d")
     verleihdaten["rueckgabedatum"] = datetime.strptime(verleihdaten["rueckgabedatum"], "%Y-%m-%d")
-    verleihdaten_object = Verleihdaten(**{key: verleihdaten[key] for key in verleihdaten.keys()})
+    verleihdaten_object = Verleihdaten(**verleihdaten)
     db.add(verleihdaten_object)
     db.commit()
     return verleihdaten_object

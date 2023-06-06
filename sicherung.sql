@@ -73,147 +73,139 @@ VALUES
 
 INSERT INTO Adressen (strasse, nummer, ort_id, land_id)
 VALUES
-('Großkopf', '4', 'Arnsberg',  1),
-('Fürsterstrasse', '56', 'Augsburg',  1),
-('Westendstrasse', '92', 'Berlin',  1),
-('Bonner Strasse', '76', 'Berlin',  1),
-('Schützenweg', '12', 'Bestwig',  1),
-('Lincoln Allee', '511', 'Bonn',  1),
-('Rheinaue', '13', 'Boppard',  1),
-('Patersonstrasse', '14', 'Braunschweig',  1),
-('Bauernpfad', '4', 'Brilon',  1),
-('Küsterstrasse', '12', 'Cloppenburg',  1),
-('Steinweg', '42', 'Cuxhaven',  1),
-('Kentelerstrasse', '99', 'Dillingen',  1),
-('Allerheiligenstrasse', '81', 'Dinslaken',  1),
-('Königstrasse', '210', 'Dorsten',  1),
-('Postgasse', '77', 'Dortmund',  1),
-('Pieschener Allee', '23', 'Dresden',  1),
-('Niehler Kirchweg', '65', 'Duisburg',  1),
-('Hemingway Strasse', '280', 'Düsseldorf',  1),
-('Müllerweg', '78', 'Düsseldorf',  1),
-('Blaubergstrasse', '89', 'Frankfurt',  1),
-('Breinhölzer Allee', '210', 'Freilassing',  1),
-('Frühlingsweg', '30', 'Göttingen',  1),
-('Herrmannstrasse', '12', 'Kassel',  1),
-('Heubnerstrasse', '5', 'Kassel',  1),
-('Kirchstrasse', '70', 'Köln',  1),
-('Seestrasse', '144', 'Landau',  1),
-('Schönsteinstrasse', '18', 'Lübeck',  1),
-('Königsallee', '111', 'Marl',  1),
-('Mühlengraben', '12', 'Meschede',  1),
-('Dover Platz', '14', 'Moers',  1),
-('Nordstrasse', '8', 'Mönchengladbach',  1),
-('Elmshornerstr.', '125', 'Neuss',  1),
-('Hauptstrasse', '82', 'Neu-Ulm',  1),
-('Schweizer Allee', '452', 'Oberstorf',  1),
-('Am Krongut', '12', 'Potsdam',  1),
-('Am Moosfenn', '43', 'Potsdam',  1),
-('Talstrasse', '18', 'Ratingen',  1),
-('Henry-Ford-Strasse', '1', 'Reutlingen',  1),
-('Obere Berstrasse', '193', 'Soltau',  1),
-('Merlistrasse', '41', 'Stuttgart',  1),
-('Heiligendamm', '13', 'Trier',  1),
-('Große Sandkaul', '72', 'Troisdorf',  1),
-('Kleinstrasse', '11', 'Winterberg',  1),
-('Hauptstrasse', '87', 'Wolfsburg',  1),
-('Oyi Keilasatama', '21', 'Espoo',  2),
-('Tapulikuja', '56', 'Forssa',  2),
-('John Stenbergin Ranta', '112', 'Helsinki',  2),
-('P.O. Box', '113', 'Helsinki',  2),
-('Koneenkatu', '76', 'Hyvinkää',  2),
-('Kiviharjuntie', '198', 'Oulu',  2),
-('P.O. Box', '416', 'Vaasa',  2),
-('Spoordreef', '87', 'Almere',  3),
-('Noordgeest', '21', 'Bergen op Zoom',  3),
-('Vlamingstraat', '3', 'Delft',  3),
-('Nieuwe Kade', '18', 'Grou',  3),
-('Slachtedijk', '71', 'Joure',  3),
-('Bedafseweg', '108', 'Uden',  3),
-('Kaldenkerkweg', '56', 'Venlo',  3),
-('Hengelder Straat', '6', 'Zevenaar',  3),
-('Murielstrasse', '47', 'Klagenfurt',  4),
-('Bischofstrasse', '139', 'Lienz',  4),
-('Seestrasse', '59', 'Bregenz',  4),
-('Walstrasse', '124', 'Bregenz',  4),
-('König-Edward-Platz', '3', 'Graz',  4),
-('Kirchplatz', '36', 'Graz',  4),
-('Annenstrasse', '63', 'Salzburg',  4),
-('Hellbrunner Allee', '11', 'Salzburg',  4),
-('Kartnerstrasse', '28', 'Wien',  4),
-('Stephansplatz', '9', 'Wien',  4)
+('Großkopf', '4', 1, 1),
+('Fürsterstrasse', '56', 1, 1),
+('Westendstrasse', '92', 3, 1),
+('Bonner Strasse', '76', 3, 1),
+('Schützenweg', '12', 5, 1),
+('Lincoln Allee', '511', 6, 1),
+('Rheinaue', '13', 7, 1),
+('Patersonstrasse', '14', 8, 1),
+('Bauernpfad', '4', 'Brilon', 1),
+('Küsterstrasse', '12', 10, 1),
+('Steinweg', '42', 11, 1),
+('Kentelerstrasse', '99', 12, 1),
+('Allerheiligenstrasse', '81', 13, 1),
+('Königstrasse', '210', 14, 1),
+('Postgasse', '77', 15, 1),
+('Pieschener Allee', '23', 16, 1),
+('Niehler Kirchweg', '65', 17, 1),
+('Hemingway Strasse', '280', 18, 1),
+('Müllerweg', '78', 18, 1),
+('Blaubergstrasse', '89', 19, 1),
+('Breinhölzer Allee', '210', 20, 1),
+('Frühlingsweg', '30', 21, 1),
+('Herrmannstrasse', '12', 22, 1),
+('Heubnerstrasse', '5', 22, 1),
+('Kirchstrasse', '70', 23, 1),
+('Seestrasse', '144', 24, 1),
+('Schönsteinstrasse', '18', 25, 1),
+('Königsallee', '111', 26, 1),
+('Mühlengraben', '12', 27, 1),
+('Dover Platz', '14', 28, 1),
+('Nordstrasse', '8', 29, 1),
+('Elmshornerstr.', '125', 30, 1),
+('Hauptstrasse', '82', 31, 1),
+('Schweizer Allee', '452', 32, 1),
+('Am Krongut', '12', 33, 1),
+('Am Moosfenn', '43', 33, 1),
+('Talstrasse', '18', 34, 1),
+('Henry-Ford-Strasse', '1', 35, 1),
+('Obere Berstrasse', '193', 36, 1),
+('Merlistrasse', '41', 37, 1),
+('Heiligendamm', '13', 38, 1),
+('Große Sandkaul', '72', 39, 1),
+('Kleinstrasse', '11', 40, 1),
+('Hauptstrasse', '87', 41, 1),
+('Oyi Keilasatama', '21', 42, 2),
+('Tapulikuja', '56', 43, 2),
+('John Stenbergin Ranta', '112', 44, 2),
+('P.O. Box', '113', 44, 2),
+('Koneenkatu', '76', 45, 2),
+('Kiviharjuntie', '198', 46, 2),
+('P.O. Box', '416', '47', 2),
+('Spoordreef', '87', 48, 3),
+('Noordgeest', '21', 49, 3),
+('Vlamingstraat', '3', 50, 3),
+('Nieuwe Kade', '18', 51, 3),
+('Slachtedijk', '71', 52, 3),
+('Bedafseweg', '108', 53, 3),
+('Kaldenkerkweg', '56', 54, 3),
+('Hengelder Straat', '6', 55, 3),
+('Murielstrasse', '47', 56, 4),
+('Bischofstrasse', '139', 57, 4),
+('Seestrasse', '59', 66, 4),
+('Walstrasse', '124', 66, 4),
+('König-Edward-Platz', '3', 16, 4),
+('Kirchplatz', '36', 16, 4),
+('Annenstrasse', '63', 62, 4),
+('Hellbrunner Allee', '11', 62, 4),
+('Kartnerstrasse', '28', 65, 4),
+('Stephansplatz', '9', 66, 4);
 
-INSERT INTO Adressen (strasse, nummer, ort_id, land_id)
-VALUES
-('Großkopf', '4', 'Arnsberg',  1),
-('Fürsterstrasse', '56', 'Augsburg',  1),
-('Westendstrasse', '92', 'Berlin',  1),
-('Bonner Strasse', '76', 'Berlin',  1),
-('Schützenweg', '12', 'Bestwig',  1),
-('Lincoln Allee', '511', 'Bonn',  1),
-('Rheinaue', '13', 'Boppard',  1),
-('Patersonstrasse', '14', 'Braunschweig',  1),
-('Bauernpfad', '4', 'Brilon',  1),
-('Küsterstrasse', '12', 'Cloppenburg',  1),
-('Steinweg', '42', 'Cuxhaven',  1),
-('Kentelerstrasse', '99', 'Dillingen',  1),
-('Allerheiligenstrasse', '81', 'Dinslaken',  1),
-('Königstrasse', '210', 'Dorsten',  1),
-('Postgasse', '77', 'Dortmund',  1),
-('Pieschener Allee', '23', 'Dresden',  1),
-('Niehler Kirchweg', '65', 'Duisburg',  1),
-('Hemingway Strasse', '280', 'Düsseldorf',  1),
-('Müllerweg', '78', 'Düsseldorf',  1),
-('Blaubergstrasse', '89', 'Frankfurt',  1),
-('Breinhölzer Allee', '210', 'Freilassing',  1),
-('Frühlingsweg', '30', 'Göttingen',  1),
-('Herrmannstrasse', '12', 'Kassel',  1),
-('Heubnerstrasse', '5', 'Kassel',  1),
-('Kirchstrasse', '70', 'Köln',  1),
-('Seestrasse', '144', 'Landau',  1),
-('Schönsteinstrasse', '18', 'Lübeck',  1),
-('Königsallee', '111', 'Marl',  1),
-('Mühlengraben', '12', 'Meschede',  1),
-('Dover Platz', '14', 'Moers',  1),
-('Nordstrasse', '8', 'Mönchengladbach',  1),
-('Elmshornerstr.', '125', 'Neuss',  1),
-('Hauptstrasse', '82', 'Neu-Ulm',  1),
-('Schweizer Allee', '452', 'Oberstorf',  1),
-('Am Krongut', '12', 'Potsdam',  1),
-('Am Moosfenn', '43', 'Potsdam',  1),
-('Talstrasse', '18', 'Ratingen',  1),
-('Henry-Ford-Strasse', '1', 'Reutlingen',  1),
-('Obere Berstrasse', '193', 'Soltau',  1),
-('Merlistrasse', '41', 'Stuttgart',  1),
-('Heiligendamm', '13', 'Trier',  1),
-('Große Sandkaul', '72', 'Troisdorf',  1),
-('Kleinstrasse', '11', 'Winterberg',  1),
-('Hauptstrasse', '87', 'Wolfsburg',  1),
-('Oyi Keilasatama', '21', 'Espoo',  2),
-('Tapulikuja', '56', 'Forssa',  2),
-('John Stenbergin Ranta', '112', 'Helsinki',  2),
-('P.O. Box', '113', 'Helsinki',  2),
-('Koneenkatu', '76', 'Hyvinkää',  2),
-('Kiviharjuntie', '198', 'Oulu',  2),
-('P.O. Box', '416', 'Vaasa',  2),
-('Spoordreef', '87', 'Almere',  3),
-('Noordgeest', '21', 'Bergen op Zoom',  3),
-('Vlamingstraat', '3', 'Delft',  3),
-('Nieuwe Kade', '18', 'Grou',  3),
-('Slachtedijk', '71', 'Joure',  3),
-('Bedafseweg', '108', 'Uden',  3),
-('Kaldenkerkweg', '56', 'Venlo',  3),
-('Hengelder Straat', '6', 'Zevenaar',  3),
-('Murielstrasse', '47', 'Klagenfurt',  4),
-('Bischofstrasse', '139', 'Lienz',  4),
-('Seestrasse', '59', 'Bregenz',  4),
-('Walstrasse', '124', 'Bregenz',  4),
-('König-Edward-Platz', '3', 'Graz',  4),
-('Kirchplatz', '36', 'Graz',  4),
-('Annenstrasse', '63', 'Salzburg',  4),
-('Hellbrunner Allee', '11', 'Salzburg',  4),
-('Kartnerstrasse', '28', 'Wien',  4),
-('Stephansplatz', '9', 'Wien',  4);
+INSERT INTO orte (id, plz, ort) VALUES (1, 59823, 'Arnsberg');
+INSERT INTO orte (id, plz, ort) VALUES (3, 12557, 'Berlin');
+INSERT INTO orte (id, plz, ort) VALUES (5, 59909, 'Bestwig');
+INSERT INTO orte (id, plz, ort) VALUES (6, 53117, 'Bonn');
+INSERT INTO orte (id, plz, ort) VALUES (7, 56154, 'Boppard');
+INSERT INTO orte (id, plz, ort) VALUES (8, 38100, 'Braunschweig');
+INSERT INTO orte (id, plz, ort) VALUES (9, 59929, 'Brilon');
+INSERT INTO orte (id, plz, ort) VALUES (10, 49661, 'Cloppenburg');
+INSERT INTO orte (id, plz, ort) VALUES (11, 27476, 'Cuxhaven');
+INSERT INTO orte (id, plz, ort) VALUES (12, 89407, 'Dillingen');
+INSERT INTO orte (id, plz, ort) VALUES (13, 46537, 'Dinslaken');
+INSERT INTO orte (id, plz, ort) VALUES (14, 46282, 'Dorsten');
+INSERT INTO orte (id, plz, ort) VALUES (15, 44319, 'Dortmund');
+INSERT INTO orte (id, plz, ort) VALUES (16, 1067, 'Dresden');
+INSERT INTO orte (id, plz, ort) VALUES (17, 47138, 'Duisburg');
+INSERT INTO orte (id, plz, ort) VALUES (18, 40221, 'Düsseldorf');
+INSERT INTO orte (id, plz, ort) VALUES (19, 60599, 'Frankfurt');
+INSERT INTO orte (id, plz, ort) VALUES (20, 83395, 'Freilassing');
+INSERT INTO orte (id, plz, ort) VALUES (21, 37085, 'Göttingen');
+INSERT INTO orte (id, plz, ort) VALUES (22, 34117, 'Kassel');
+INSERT INTO orte (id, plz, ort) VALUES (23, 50670, 'Köln');
+INSERT INTO orte (id, plz, ort) VALUES (24, 76829, 'Landau');
+INSERT INTO orte (id, plz, ort) VALUES (25, 23569, 'Lübeck');
+INSERT INTO orte (id, plz, ort) VALUES (26, 45770, 'Marl');
+INSERT INTO orte (id, plz, ort) VALUES (27, 59872, 'Meschede');
+INSERT INTO orte (id, plz, ort) VALUES (28, 47447, 'Moers');
+INSERT INTO orte (id, plz, ort) VALUES (29, 41236, 'Mönchengladbach');
+INSERT INTO orte (id, plz, ort) VALUES (30, 41469, 'Neuss');
+INSERT INTO orte (id, plz, ort) VALUES (31, 89231, 'Neu-Ulm');
+INSERT INTO orte (id, plz, ort) VALUES (32, 87561, 'Oberstorf');
+INSERT INTO orte (id, plz, ort) VALUES (33, 14469, 'Potsdam');
+INSERT INTO orte (id, plz, ort) VALUES (34, 14478, 'Potsdam');
+INSERT INTO orte (id, plz, ort) VALUES (35, 40885, 'Ratingen');
+INSERT INTO orte (id, plz, ort) VALUES (36, 72770, 'Reutlingen');
+INSERT INTO orte (id, plz, ort) VALUES (37, 29614, 'Soltau');
+INSERT INTO orte (id, plz, ort) VALUES (38, 70567, 'Stuttgart');
+INSERT INTO orte (id, plz, ort) VALUES (39, 54295, 'Trier');
+INSERT INTO orte (id, plz, ort) VALUES (40, 53842, 'Troisdorf');
+INSERT INTO orte (id, plz, ort) VALUES (41, 59955, 'Winterberg');
+INSERT INTO orte (id, plz, ort) VALUES (42, 38424, 'Wolfsburg');
+INSERT INTO orte (id, plz, ort) VALUES (43, 2150, 'Espoo');
+INSERT INTO orte (id, plz, ort) VALUES (44, 30100, 'Forssa');
+INSERT INTO orte (id, plz, ort) VALUES (45, 530, 'Helsinki');
+INSERT INTO orte (id, plz, ort) VALUES (46, 531, 'Helsinki');
+INSERT INTO orte (id, plz, ort) VALUES (47, 5801, 'Hyvinkä');
+INSERT INTO orte (id, plz, ort) VALUES (48, 90220, 'Oulu');
+INSERT INTO orte (id, plz, ort) VALUES (49, 65101, 'Vaasa');
+INSERT INTO orte (id, plz, ort) VALUES (50, 1315, 'Almere');
+INSERT INTO orte (id, plz, ort) VALUES (51, 4600, 'Bergen op Zoom');
+INSERT INTO orte (id, plz, ort) VALUES (52, 2611, 'Delft');
+INSERT INTO orte (id, plz, ort) VALUES (53, 9001, 'Grou');
+INSERT INTO orte (id, plz, ort) VALUES (54, 8501, 'Joure');
+INSERT INTO orte (id, plz, ort) VALUES (55, 5406, 'Uden');
+INSERT INTO orte (id, plz, ort) VALUES (56, 5913, 'Venlo');
+INSERT INTO orte (id, plz, ort) VALUES (57, 6900, 'Zevenaar');
+INSERT INTO orte (id, plz, ort) VALUES (58, 9020, 'Klagenfurt');
+INSERT INTO orte (id, plz, ort) VALUES (59, 9900, 'Lienz');
+INSERT INTO orte (id, plz, ort) VALUES (60, 6020, 'Innsbruck');
+INSERT INTO orte (id, plz, ort) VALUES (61, 4020, 'Linz');
+INSERT INTO orte (id, plz, ort) VALUES (62, 5020, 'Salzburg');
+INSERT INTO orte (id, plz, ort) VALUES (63, 9500, 'Villach');
+INSERT INTO orte (id, plz, ort) VALUES (64, 1020, 'Wien');
+
 
 
 
